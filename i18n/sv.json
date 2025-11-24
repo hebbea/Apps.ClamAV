@@ -1,0 +1,14 @@
+{
+    "clamav_server_host_label": "ClamAV Server-värd",
+    "clamav_server_host_description": "Var din ClamAV-server finns. T.ex.: localhost",
+    "clamav_server_port_label": "ClamAV Server-port",
+    "clamav_server_port_description": "Porten för din ClamAV-server. T.ex: 3310",
+    "clamav_timeout_label": "Skannings-timeout (ms)",
+    "clamav_timeout_description": "Timeout i millisekunder för virusskanning. Standard: 10000 (10 sekunder). Öka för stora filer.",
+    "clamav_max_file_size_label": "Max filstorlek (MB)",
+    "clamav_max_file_size_description": "Maximal filstorlek i MB som kan skannas. Filer större än detta kommer att avvisas. Standard: 100 MB. Sätt till 0 för att inaktivera gränsen.",
+    "clamav_allow_on_scan_failure_label": "Tillåt uppladdning vid skanningsfel",
+    "clamav_allow_on_scan_failure_description": "Om aktiverat kommer filer att tillåtas laddas upp när skanning misslyckas (t.ex. ClamAV-servern är nere). Om inaktiverat blockeras uppladdningar. Standard: false (blockera vid fel).",
+    "clamav_notify_on_clean_label": "Meddela vid rena filer",
+    "clamav_notify_on_clean_description": "Om aktiverat får användare ett meddelande när deras fil passerar virusskanning. Om inaktiverat genereras endast meddelanden för infekterade eller misslyckade skanningar. Standard: false."
+}

@@ -2,5 +2,13 @@
     "clamav_server_host_label": "ClamAV Server Host",
     "clamav_server_host_description": "Where your ClamAV server is hosted. E.g.: localhost",
     "clamav_server_port_label": "ClamAv Server Port",
-    "clamav_server_port_description": "The port for your ClamAV server. E.g: 3310"
+    "clamav_server_port_description": "The port for your ClamAV server. E.g: 3310",
+    "clamav_timeout_label": "Scan Timeout (ms)",
+    "clamav_timeout_description": "Timeout in milliseconds for virus scanning. Default: 10000 (10 seconds). Increase for large files.",
+    "clamav_max_file_size_label": "Max File Size (MB)",
+    "clamav_max_file_size_description": "Maximum file size in MB that can be scanned. Files larger than this will be rejected. Default: 100 MB. Set to 0 to disable limit.",
+    "clamav_allow_on_scan_failure_label": "Allow Upload on Scan Failure",
+    "clamav_allow_on_scan_failure_description": "If enabled, files will be allowed to upload when scanning fails (e.g., ClamAV server is down). If disabled, uploads will be blocked. Default: false (block on failure).",
+    "clamav_notify_on_clean_label": "Notify on Clean Files",
+    "clamav_notify_on_clean_description": "If enabled, users will receive a notification when their file passes virus scanning. If disabled, only infected or failed scans will generate notifications. Default: false."
 }
